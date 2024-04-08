@@ -75,4 +75,7 @@ print(sys.getrefcount(render)) # 2
 我们发现`render` 的refcount并没有增加。  
 于是在函数退出之后，render这个对象就顺理成章地被解释器收走了。  
 于是图像就无法正常显示了。  
+
+<img src="https://github.com/yunline/temporary-blogs/assets/31395137/8808f7e1-ad30-4304-8b38-e738dd571b2d" width=40%></img>
+
 </details>
